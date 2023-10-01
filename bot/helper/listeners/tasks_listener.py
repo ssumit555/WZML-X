@@ -36,6 +36,7 @@ from bot.helper.mirror_utils.upload_utils.ddlEngine import DDLUploader
 from bot.helper.mirror_utils.rclone_utils.transfer import RcloneTransferHelper
 from bot.helper.telegram_helper.message_utils import sendCustomMsg, sendMessage, editMessage, deleteMessage, delete_all_messages, delete_links, sendMultiMessage, update_all_messages
 from bot.helper.telegram_helper.button_build import ButtonMaker
+from bot.helper.ext_utils.shortners import short_url
 from bot.helper.ext_utils.db_handler import DbManger
 from bot.helper.themes import BotTheme
 
@@ -522,7 +523,7 @@ class MirrorLeechListener:
                     INDEX_URL = self.index_link if self.drive_id else config_dict['INDEX_URL']
                     if INDEX_URL:
                         url_path = rutils.quote(f'{name}')
-                        share_url = f'{INDEX_URL}/{url_path}'
+                        share_url = short_url(f'{INDEX_URL}/{url_path}')
                         if mime_type == "Folder":
                             share_url += '/'
                             buttons.ubutton(BotTheme('INDEX_LINK_F'), share_url)
