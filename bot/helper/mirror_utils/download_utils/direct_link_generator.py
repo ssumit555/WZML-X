@@ -165,7 +165,7 @@ all_debrid_sites = ["nnistv.com", "10play.com.au", "tf1.fr", "the-hole.tv", "the
                     "rapidfileshare.net", "scribd.com", "sendit.cloud", "sharemods.com", "simfileshare.net", "streamtape.com", "up-load.io", "up-4ever.net", "upload-4ever.com", 
                     "upload42.com", "uploadbank.com", "uploadbox.io", "uploadboy.com", "uploader.link", "uploadev.org", "uploadev.com", "uploadrar.com", "uploadydl.com", "uppit.com", 
                     "userscloud.com", "usersdrive.com", "userupload.net", "vev.io", "vidoza.net", "vidoza.org", "playvidto.com", "vidtodo.com", "vidto-do.com", "vipfile.cc", 
-                    "world-files.com", "worldbytez.com", "dgdrive.pro", "file-upload.org"
+                    "world-files.com", "worldbytez.com", "dgdrive.pro", "file-upload.org", "dropgalaxy.vip"
                     ]
 
 
